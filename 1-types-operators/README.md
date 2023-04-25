@@ -2,14 +2,14 @@
 
 ## Tipos de datos
 La información que se guardará en memoria necesitará estar relacionada con un Tipo de dato. Más adelante veremos como guardar esta información pero ahora repasaremos los Tipos de datos que hay.
-####Number
+#### Number
 Se utilizan para representar números.
 Se declaran sin usar ningún tipo de coma (a palo seco).
 `1`
 `77`
 `929`
 
-####Strings
+#### Strings
 Se utilizan para representar texto.
 Se escriben encerrandolo en comillas
 `'Hello world'`
@@ -17,14 +17,14 @@ Se escriben encerrandolo en comillas
 `"Esto no es un String'`
 `Esto tampoco es un String`
 
-####Booleanos
+#### Booleanos
 Representar un valor verdadero o falso
 
 `false`
 `true`
 *No hay más posibles valores!*
 
-###<span style="color:blue">Preguntas Tipos de datos</span>
+### <span style="color:blue">Preguntas Tipos de datos</span>
 Qué tipo de dato es:
 `'true'`
 
@@ -61,7 +61,7 @@ También existen otras vinculaciones como
 Si probamos a reescribir el valor de un const:
 `MENSAJE = "Si pasar"` -> `ERROR`
 
-###<span style="color:blue">Preguntas Variables</span>
+### <span style="color:blue">Preguntas Variables</span>
 
 ¿Darán error estas declaraciones?
 
@@ -123,7 +123,7 @@ Sabemos que un valor es booleano si es true o false pero para obtener un valor b
 `console.log( primeraCondicion && !segundaCondicion )` -> `true`
 `console.log( !(!primeraCondicion && !segundaCondicion) )` -> `true`
 
-###<span style="color:blue">Preguntas Operadores</span>
+### <span style="color:blue">Preguntas Operadores</span>
 `console.log( 1 == 1 )`
 `console.log( true || false )`
 `console.log( false || false )`
