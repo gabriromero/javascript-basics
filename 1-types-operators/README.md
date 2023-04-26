@@ -124,11 +124,12 @@ Sabemos que un valor es booleano si es true o false pero para obtener un valor b
 `console.log(7 >= 7)` -> `true`
 `console.log(2 != 2)` -> `false`
 
-| Operador | Descripción |
-| --- | --- |
-| `&&` | Devuelve `true` si ambas condiciones son verdaderas. |
-|  <code>`||`</code>  | Devuelve `true` si al menos una de las condiciones es verdadera. |
-| `!` | Invierte el valor de la condición. Si es verdadera, devuelve `false`; si es falsa, devuelve `true`. |
+- `&&`: Devuelve `true` si ambas condiciones son verdaderas.
+
+- `||`: Devuelve `true` si al menos una de las condiciones es verdadera.
+
+- `!`: Invierte el valor de la condición. Si es verdadera, devuelve `false`; si es falsa, devuelve `true`.
+
 
 ***Ejemplos:***
 
