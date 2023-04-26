@@ -12,20 +12,27 @@ Se declaran sin usar ningún tipo de coma (a palo seco).
 #### Strings
 Se utilizan para representar texto.
 Se escriben encerrandolo en comillas
+
 `'Hello world'`
+
 `"Ramón García"`
+
 `"Esto no es un String'`
+
 `Esto tampoco es un String`
 
 #### Booleanos
 Representar un valor verdadero o falso
 
 `false`
+
 `true`
+
 *No hay más posibles valores!*
 
 ### <span style="color:blue">Preguntas Tipos de datos</span>
 Qué tipo de dato es:
+
 `'true'`
 
 `0`
@@ -41,21 +48,28 @@ Esta información será almacenada en una especie de contenedor que llamaremos v
 
 Crear un nuevo ligamiento (contenedor) recibe el nombre de declaración.
 Una delcaración de ligamiento tendrá el siguiente formato:
+
 `let {nombre_contenedor} = {valor_contenedor}`
 
 Con el ejemplo de guardar el usuario, quedará tal que así:
+
 `let nombreUsuario = "Leo Messi"`
 
 Podemos printar el valor de este contenedor:
+
 `console.log(nombreUsuario)` -> `"Leo Messi"`
 
 El valor puede ser reescrito una vez declarado `nombreUsuario`.
+
 `nombreUsuario = "El bicho"` 
+
 `console.log(nombreUsuario)` -> `"El bicho"`
 
 
 También existen otras vinculaciones como
+
 `var edad = 18` que se comporta de manera muy similar a let.
+
 `const MENSAJE = "No pasar"` donde el valor no podrá ser reescrito.
 
 Si probamos a reescribir el valor de un const:
@@ -113,7 +127,7 @@ Sabemos que un valor es booleano si es true o false pero para obtener un valor b
 | Operador | Descripción |
 | --- | --- |
 | `&&` | Devuelve `true` si ambas condiciones son verdaderas. |
-| `||` | Devuelve `true` si al menos una de las condiciones es verdadera. |
+|  `||`  | Devuelve `true` si al menos una de las condiciones es verdadera. |
 | `!` | Invierte el valor de la condición. Si es verdadera, devuelve `false`; si es falsa, devuelve `true`. |
 
 ***Ejemplos:***
