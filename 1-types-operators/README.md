@@ -124,6 +124,8 @@ Sabemos que un valor es booleano si es true o false pero para obtener un valor b
 `console.log(7 >= 7)` -> `true`
 `console.log(2 != 2)` -> `false`
 
+
+### Más operadores
 - `&&` Devuelve `true` si ambas condiciones son verdaderas.
 
 - `||` Devuelve `true` si al menos una de las condiciones es verdadera.
