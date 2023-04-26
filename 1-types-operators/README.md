@@ -76,12 +76,17 @@ Los **operadores aritméticos** nos permitirán operar los diferentes tipos de d
 ***Ejemplos:***
 
 `console.log(3+3)` -> `6`
+
 `console.log(4*4)` -> `16`
+
 `console.log(11%2)` -> `1`   *(Residuo de dividir 11/2)*
 
 También se podrán operar Strings:
+
 `console.log("Juan" + "Alberto")` -> `"JuanAlberto"`
+
 `console.log("Ramón " + "Garcia")` -> `"Ramon Garcia"`
+
 `console.log("a" + " " + "b" + " " + "c")` -> `"a b c"`
 
 
@@ -116,15 +121,23 @@ Sabemos que un valor es booleano si es true o false pero para obtener un valor b
 `console.log(1+1 == 2 && 7*2 != 15)` -> `true`
 
 `let primeraCondicion = 11 == 11`
+
 `let segundaCondicion = 1 > 3`
 
 `console.log( primeraCondicion && segundaCondicion )` -> `false`
+
 `console.log( primeraCondicion || segundaCondicion )` -> `true`
+
 `console.log( primeraCondicion && !segundaCondicion )` -> `true`
+
 `console.log( !(!primeraCondicion && !segundaCondicion) )` -> `true`
 
 ### <span style="color:blue">Preguntas Operadores</span>
+
 `console.log( 1 == 1 )`
+
 `console.log( true || false )`
+
 `console.log( false || false )`
+
 `console.log( !(24 * 2 == 48) )`
